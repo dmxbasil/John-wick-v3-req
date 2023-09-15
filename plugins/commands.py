@@ -41,12 +41,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton("+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴩ +", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton("ꜱᴇᴀʀᴄʜ", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/clmovi")
+            ],[      
+            InlineKeyboardButton("ʜᴇʟᴩ", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -63,12 +64,13 @@ async def start(client, message):
             return
 
         buttons = [[
-            InlineKeyboardButton('➕ ᴀᴅᴅ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton("+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴩ +", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('ꜱᴇᴀʀᴄʜ ʜᴇʀᴇ', switch_inline_query_current_chat='')
-            ],[
-            InlineKeyboardButton('ʜᴇʟᴩ', callback_data='help'),
-            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton("ꜱᴇᴀʀᴄʜ", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇꜱ", url="https://t.me/clmovi")
+            ],[      
+            InlineKeyboardButton("ʜᴇʟᴩ", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
