@@ -19,8 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/275ca63715916313fe49e.jpg https://telegra.ph/file/60381ff63cc1da8928219.jpg https://telegra.ph/file/fbdfe0c061368c0d4a413.jpg https://telegra.ph/file/8b40c760af7699e6262ce.jpg https://telegra.ph/file/a0dc06f4b9b27c0023b8f.jpg https://telegra.ph/file/04ee6ca763bb02acfdc72.jpg https://telegra.ph/file/da35f3007670ee22afe40.jpg')).split()
-
+PICS = (environ.get('PICS', 'https://telegra.ph/file/9e7948a78f15344708fe1.jpg https://telegra.ph/file/97a3d078a539468a953f2.jpg https://telegra.ph/file/cb1533f92ef24a3e992f7.jpg https://telegra.ph/file/f49443d707e5890acaa7f.jpg https://telegra.ph/file/0cfd4e45fadd0050f4751.jpg https://telegra.ph/file/847d26fe531fc10fa2133.jpg https://telegra.ph/file/93da7aefcc7bf6fce8443.jpg https://telegra.ph/file/ca9ce7cbc9602bee6fca4.jpg https://telegra.ph/file/1b235bf4424b97b7f87b7.jpg https://telegra.ph/file/a034cc54eee10b3521d11.jpg https://telegra.ph/file/4bb491f64a825e574d912.jpg https://telegra.ph/file/fa92dc91687b3793261c9.jpg https://telegra.ph/file/17ddbdab01014c1de9562.jpg https://telegra.ph/file/f975fc504b2d24ce55591.jpg https://telegra.ph/file/a923b122158615e0b71cc.jpg https://telegra.ph/file/2c2c596b9d7534f544d83.jpg https://telegra.ph/file/4a1b1202d672d22fc042d.jpg https://telegra.ph/file/21a91c6f5be92ed3f8c2b.jpg https://telegra.ph/file/35e73f9e9441b5d20897c.jpg https://telegra.ph/file/b669d63aceca853f74de2.jpg https://telegra.ph/file/05680b3e23b4e04a1452f.jpg https://telegra.ph/file/0c09e1498f24565dd9e9c.jpg https://telegra.ph/file/2c3f4be194d4af34ef5ab.jpg https://telegra.ph/file/4a1b1202d672d22fc042d.jpg https://telegra.ph/file/79e7ae4994894c6071352.jpg https://telegra.ph/file/7c01d2e86e38198f882d8.jpg https://telegra.ph/file/a95715c5f160596e463b8.jpg https://telegra.ph/file/6f11eb4ec04dce7fb0ecc.jpg https://telegra.ph/file/d99d05b19320cb72943fc.jpg https://telegra.ph/file/ff0047bd39034a02a98ca.jpg https://telegra.ph/file/b8358afbbf7a38cf64e65.jpg https://telegra.ph/file/fed53704fab6f53f582b2.jpg https://telegra.ph/file/fd04b2989ea824bdfd705.jpg https://telegra.ph/file/fde7e423576ebb8dd9e7f.jpg https://telegra.ph/file/0b9e48a55b507061a4c96.jpg https://telegra.ph/file/d99d05b19320cb72943fc.jpg')).split()
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
@@ -31,8 +30,8 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Tom-cruise-v3")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Tom-cruise-v3')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Mf-af-v5-kyb")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Mf-af-v5-kyb')
 
 # FSUB
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -44,7 +43,7 @@ JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001179133650'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'clmovi')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
