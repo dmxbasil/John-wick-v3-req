@@ -24,8 +24,8 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+V8xo48_OzFI2OWI9"),
-                InlineKeyboardButton("2ɴᴅ ɢʀᴏᴜᴩ", url="https://t.me/dmx_chating_2_0")
+                InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/clmovi"),
+                InlineKeyboardButton("2ɴᴅ ɢʀᴏᴜᴩ", url="https://t.me/+7cZ-1Z1af7dmNGJl")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -229,7 +229,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         
-        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("𝗠𝗮𝗶𝗻 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/dmx_chating")] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("𝗠𝗮𝗶𝗻 𝗚𝗿𝗼𝘂𝗽", url="https://t.me/+7cZ-1Z1af7dmNGJl")] ] ),
         
         protect_content=True if pre == 'filep' else False,
         )
