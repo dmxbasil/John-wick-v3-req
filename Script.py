@@ -4,7 +4,7 @@ class script(object):
     HELP_TXT = """ʜᴇy {}
 ʙᴀꜱᴇ ᴜꜱᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ """
     ABOUT_TXT = """✯ ᴍy ɴᴀᴍᴇ: {}
-✯ ᴏɴᴡᴇʀ: <a href=https://t.me/basildmx>ʙᴀꜱɪʟ ᴅᴍx</a>
+✯ ᴏɴᴡᴇʀ: <a href=https://t.me/MovieflixTM>ʙɪʙɪɴ ᴍꜰ</a>
 ✯ ʟɪʙʀᴀʀy: ᴩyʀᴏɢʀᴀᴍ
 ✯ ʟᴀɴɢᴜᴀɢᴇ: ᴩyᴛʜᴏɴ 𝟹.10.08
 ✯ ᴅᴀᴛᴀ ʙᴀꜱᴇ: ᴍᴏɴɢᴏ ᴅʙ
@@ -17,7 +17,7 @@ class script(object):
 - Filter is the feature were users can set automated replies for a particular keyword and 𝘾𝙝𝙖𝙧𝙡𝙞𝙚 𝘾𝙝𝙖𝙥𝙡𝙞𝙣 will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. ᴛᴏᴍ ᴄʀᴜɪꜱᴇ ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴩʀɪᴠɪʟʟᴀɢᴇ.
+1. 🚀ᴍᴏᴠɪᴇ ʙᴏᴛ🚀 ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴩʀɪᴠɪʟʟᴀɢᴇ.
 2. ᴏɴʟy ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴀᴅᴅ ꜰɪʟᴛᴇʀꜱ ᴛᴏ ʙᴏᴛ.
 3. alert buttons have a limit of 64 characters.
 
@@ -28,7 +28,7 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- ᴛᴏᴍ ᴄʀᴜɪꜱᴇ Supports both url and alert inline buttons.
+- 🚀ᴍᴏᴠɪᴇ ʙᴏᴛ🚀 Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
@@ -36,7 +36,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/dmx_chating)</code>
+<code>[Button Text](buttonurl:https://t.me/clmovi)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -97,7 +97,7 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """#Tom_cruise_new_user
+    LOG_TEXT_P = """#Mf_af_v5_new_user
 ID - <code>{}</code>
 Name - {}
 """
