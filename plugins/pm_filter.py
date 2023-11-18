@@ -144,7 +144,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>📍 ᴄᴜʀʀᴇɴᴛʟʏ ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ʜᴇʀᴇ ʀᴇᴀꜱᴏɴꜱ:\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database || ꜱᴏ ᴩʟᴇᴀꜱᴇ ᴀꜱᴋ ᴀɢᴀɪɴ ɪɴ ᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀʀ ᴏʀ ᴡᴀɪᴛ ᴜɴᴛɪʟ ᴏᴛᴛ ʀᴇʟᴇᴀꜱᴇ \n\n<a href='https://t.me/dmx_chating'>ᴏᴜʀ ɢʀᴏᴜᴩ</a></b>")
+            k = await query.message.edit("<b>📍 ᴄᴜʀʀᴇɴᴛʟʏ ᴛʜɪꜱ ᴍᴏᴠɪᴇ ɴᴏᴛ ᴀᴠᴀɪʟᴀʙʟᴇ ʜᴇʀᴇ ʀᴇᴀꜱᴏɴꜱ:\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database || ꜱᴏ ᴩʟᴇᴀꜱᴇ ᴀꜱᴋ ᴀɢᴀɪɴ ɪɴ ᴄᴏʀʀᴇᴄᴛ ꜰᴏʀᴍᴀʀᴛ ᴏʀ ᴡᴀɪᴛ ᴜɴᴛɪʟ ᴏᴛᴛ ʀᴇʟᴇᴀꜱᴇ \n\n<a href='https://t.me/zb_movies'>ᴏᴜʀ ɢʀᴏᴜᴩ</a></b>")
             await asyncio.sleep(10)
             await k.delete()
 
@@ -670,12 +670,12 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/clmovi"),
+            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/zb_movies"),
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton("ɢʀᴏᴜᴩꜱ", url="https://t.me/+7cZ-1Z1af7dmNGJl"),
+            InlineKeyboardButton("ɢʀᴏᴜᴩꜱ", url="https://t.me/+sLaSOmIvKp9kOGRl"),
         ]
     )
 
