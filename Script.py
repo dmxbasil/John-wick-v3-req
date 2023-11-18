@@ -3,21 +3,20 @@ class script(object):
 ᴍy ɴᴀᴍᴇ ɪꜱ<a href=https://t.me/{}>{}</a>, ɪ ᴄᴀɴ ᴩʀᴏᴠɪᴅᴇ ᴍᴏᴠɪᴇꜱ , ᴊᴜꜱᴛ ᴀᴅᴅ ᴛᴏ yᴏᴜʀ ɢʀᴏᴜᴩ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ.."""
     HELP_TXT = """ʜᴇy {}
 ʙᴀꜱᴇ ᴜꜱᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ """
-    ABOUT_TXT = """✯ ᴍy ɴᴀᴍᴇ: {}
-✯ ᴏɴᴡᴇʀ: <a href=https://t.me/MovieflixTM>ʙɪʙɪɴ ᴍꜰ</a>
-✯ ʟɪʙʀᴀʀy: ᴩyʀᴏɢʀᴀᴍ
-✯ ʟᴀɴɢᴜᴀɢᴇ: ᴩyᴛʜᴏɴ 𝟹.10.08
-✯ ᴅᴀᴛᴀ ʙᴀꜱᴇ: ᴍᴏɴɢᴏ ᴅʙ
-✯ ᴅᴀᴛᴀ ʙᴀꜱᴇ 2 : ʀᴇᴅɪꜱ ᴅʙ
-✯ ꜱᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
-✯ ꜱᴏᴜʀᴄᴇ : ᴇᴠᴀ ᴍᴀʀɪᴀ + ᴀᴅᴅᴇᴅ ᴄᴏᴅᴇ"""
+    ABOUT_TXT = """<b><i>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/John_wick_af_bot><b>ᴊᴏʜɴ ᴡɪᴄᴋ</b></a>\n
+👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/clemant_tg><b>Vivek oz ✨️</b></a>\n
+📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
+📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : heroku \n
+📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/zb_movies_official><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
+🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
     SOURCE_TXT = """<b>Sorry Source Code Of This Bot is Private Add This Bot in Your Group And Use Like Yours😊"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and 𝘾𝙝𝙖𝙧𝙡𝙞𝙚 𝘾𝙝𝙖𝙥𝙡𝙞𝙣 will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. 🚀ᴍᴏᴠɪᴇ ʙᴏᴛ🚀 ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴩʀɪᴠɪʟʟᴀɢᴇ.
+1. ᴊᴏʜɴ ᴡɪᴄᴋ ꜱʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴩʀɪᴠɪʟʟᴀɢᴇ.
 2. ᴏɴʟy ᴀᴅᴍɪɴꜱ ᴄᴀɴ ᴀᴅᴅ ꜰɪʟᴛᴇʀꜱ ᴛᴏ ʙᴏᴛ.
 3. alert buttons have a limit of 64 characters.
 
@@ -28,7 +27,7 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- 🚀ᴍᴏᴠɪᴇ ʙᴏᴛ🚀 Supports both url and alert inline buttons.
+- ᴊᴏʜɴ ᴡɪᴄᴋ Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
@@ -36,7 +35,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/clmovi)</code>
+<code>[Button Text](buttonurl:https://t.me/zb_movies)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -97,7 +96,7 @@ Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """#Mf_af_v5_new_user
+    LOG_TEXT_P = """#john_wick_new_user
 ID - <code>{}</code>
 Name - {}
 """
