@@ -109,8 +109,8 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
             [
                 InlineKeyboardButton("👆 ᴀꜰᴛᴇʀ ʀᴇqᴜᴇꜱᴛ ᴛʀy ᴀɢᴀɪɴ", callback_data=f"{mode}#{file_id}")
             ],
-            [   InlineKeyboardButton("ᴍᴀɪɴ ɢʀᴏᴜᴩ", url="https://t.me/+7cZ-1Z1af7dmNGJl"),
-                InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/clmovi")
+            [   InlineKeyboardButton("ᴍᴀɪɴ ɢʀᴏᴜᴩ", url="https://t.me/+TB2kIj9B8eIzOTk1"),
+                InlineKeyboardButton("ᴜᴩᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+StthmH4561I3ZWQ1")
             ]
         ]
         
