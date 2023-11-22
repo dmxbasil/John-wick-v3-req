@@ -133,7 +133,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
                     
-                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("ᴍᴀɪɴ ɢʀᴏᴜᴩ", url="https://t.me/dmx_chating")] ] ),
+                    reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("ᴍᴀɪɴ ɢʀᴏᴜᴩ", url="https://t.me/+TB2kIj9B8eIzOTk1")] ] ),
                     
                     protect_content=msg.get('protect', False),
                     )
