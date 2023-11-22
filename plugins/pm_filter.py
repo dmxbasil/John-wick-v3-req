@@ -97,12 +97,12 @@ async def next_page(bot, query):
     elif off_set is None:
         btn.insert(0,
             [
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟꜱ", url="https://t.me/clmovi"),
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟꜱ", url="https://t.me/+StthmH4561I3ZWQ1"),
             ]
         )
         btn.insert(1,
             [
-                InlineKeyboardButton("ᴍᴀɪɴ ɢʀᴏᴜᴩ", url="https://t.me/+7cZ-1Z1af7dmNGJl"),
+                InlineKeyboardButton("ᴍᴀɪɴ ɢʀᴏᴜᴩ", url="https://t.me/+TB2kIj9B8eIzOTk1),
             ]
         )
         btn.append(
@@ -670,12 +670,12 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+VgCqfF-dT79hOTA1"),
+            InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+StthmH4561I3ZWQ1"),
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton("ɢʀᴏᴜᴩꜱ", url="https://t.me/+tzgxhHD4FqU0ZjRl"),
+            InlineKeyboardButton("ɢʀᴏᴜᴩꜱ", url="https://t.me/+TB2kIj9B8eIzOTk1"),
         ]
     )
 
